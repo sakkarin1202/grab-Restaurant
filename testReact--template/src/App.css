@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.categories button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.categories button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item-content {
+  padding: 10px 0;
+}
+.item-price{
+    color: blue;
+}
